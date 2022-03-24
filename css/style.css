@@ -1,0 +1,831 @@
+/* =======================================
+  All-Common-Css-Start
+==========================================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* =======================================
+  All-Common-Css-End
+==========================================*/
+
+/* =======================================
+  Navbar-Section-Start
+==========================================*/
+#navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 15px;
+  z-index: 100;
+  background: none;
+  transition: all linear 0.3s;
+}
+#navbar ul li a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  transition: all linear 0.3s;
+}
+#navbar ul li a:hover {
+  color: #00bbff;
+}
+
+.navbarScrollEffect {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  animation: navbarScrollAnimation linear 0.4s;
+  background: #f5f5f5 !important;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 10%);
+}
+@keyframes navbarScrollAnimation {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* =======================================
+  Navbar-Section-End
+==========================================*/
+
+/* =======================================
+  Banner-Section-Start
+==========================================*/
+#banner {
+  background: #f5f5f5;
+  padding-top: 31px;
+  position: relative;
+}
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: none;
+}
+.text {
+  position: relative;
+}
+.send-message {
+  position: absolute;
+  width: 330px;
+  top: 305px;
+  right: 0;
+  display: flex;
+  justify-content: end;
+}
+.send-message .message-box {
+  display: block;
+  width: 70%;
+  border-radius: 20px;
+  border: 1px solid #f5f5f5;
+  box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 10%);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #454545;
+  height: 0;
+  padding: 20px 0;
+  padding-left: 20px;
+}
+.send-message .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+.send-message .icon a {
+  color: #454545;
+  font-size: 18px;
+}
+.send-message .icon a:hover {
+  color: #20c4ff;
+}
+.text-slider {
+  position: absolute;
+  width: 330px;
+  top: 90px;
+  left: -60px;
+}
+.text-slider .item {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+}
+.text-slider .item:nth-child(even) {
+  justify-content: center;
+}
+.text-slider .item:nth-child(odd) {
+  justify-content: end;
+}
+.text-slider .item p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  background: #fdfdfd;
+  display: inline-block;
+  padding: 0 18px;
+  margin: 5px 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.slick-current p {
+  opacity: 0.5;
+}
+
+.banner-center {
+  position: relative;
+}
+.banner-message {
+  position: absolute;
+  top: 28%;
+  left: 10px;
+}
+.banner-message a {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  color: #00bbff;
+  font-size: 32px;
+}
+
+.banner-text {
+  padding-top: 180px;
+  position: relative;
+}
+.banner-text h1 {
+  font-size: 34px;
+  font-weight: 300;
+  color: #00bbff;
+  font-family: "Ubuntu", sans-serif;
+}
+.banner-text h3 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #00bbff;
+  font-family: "Abril Fatface", cursive;
+}
+.banner-text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 20px;
+}
+.banner-text a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #00bbff, #0067e7);
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+}
+.banner-text a:hover {
+  background: none;
+  color: #00bbff;
+  border: 2px solid #00bbff;
+}
+/* =======================================
+  Banner-Section-End
+==========================================*/
+
+/* =======================================
+  About-Section-Start
+==========================================*/
+#about {
+  padding: 100px 0;
+}
+#about .about-text h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  padding-bottom: 50px;
+}
+#about .about-text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 24px;
+}
+#about .items {
+  padding: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+#about .items:hover {
+  background: #f7f7f7;
+  box-shadow: 0px 6px 30px 0px #e3e3e3;
+}
+#about .items .text h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444444;
+  text-transform: capitalize;
+}
+#about .items .text h3 span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #444444;
+  display: block;
+}
+/* =======================================
+  About-Section-End
+==========================================*/
+
+/* =======================================
+  Services-Section-Start
+==========================================*/
+#services {
+  padding: 50px 0;
+  background: #f5f5f5;
+}
+#services .items {
+  position: relative;
+  padding: 30px;
+  transition: all linear 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#services .items::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(#0067e7, #00bbff);
+  top: 0;
+  right: 0px;
+  opacity: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: all linear 0.2s;
+}
+#services .items:hover {
+  background: #ffffff;
+  box-shadow: 0px 0px 15px 2px #e5e5e5;
+}
+#services .items:hover::before {
+  opacity: 1;
+}
+#services .items .text h3 {
+  font-size: 24px;
+  color: #222222;
+  font-family: "Abril Fatface", cursive;
+  padding-top: 14px;
+}
+#services .items .text p {
+  font-size: 13px;
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 10px;
+}
+/* =======================================
+  Services-Section-End
+==========================================*/
+
+/* =======================================
+  Portfolio-Section-Start
+==========================================*/
+#portfolio {
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+#portfolio .portfolio-text h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  color: #222222;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+#portfolio .portfolio-button ul li button {
+  padding: 0 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-right: 2px solid #595959;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #595959;
+  transition: all linear 0.3s;
+}
+#portfolio .portfolio-button ul li:last-child button {
+  border: none;
+}
+
+#portfolio .portfolio-button ul li button:hover {
+  color: #00bbff;
+}
+
+#portfolio .portfolio-carousel {
+  width: 100%;
+  display: flex;
+  padding-top: 45px;
+  gap: 24px;
+}
+#portfolio .portfolio-carousel .image {
+  cursor: pointer;
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+}
+#portfolio .portfolio-carousel .image:hover .overlay {
+  top: 0;
+}
+#portfolio .portfolio-carousel .image:hover .overlay .text {
+  top: 50%;
+}
+#portfolio .portfolio-carousel .image img {
+  width: 100%;
+  height: 100%;
+}
+#portfolio .portfolio-carousel .image .overlay {
+  position: absolute;
+  content: "";
+  top: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(1, 1, 1, 0.9);
+  transition: all linear 0.3s;
+}
+#portfolio .portfolio-carousel .image .overlay .text {
+  position: absolute;
+  width: 100%;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all linear 0.3s;
+}
+#portfolio .portfolio-carousel .image .overlay .text a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #fefefe;
+  color: #20c4ff;
+  border-radius: 50%;
+  transition: all linear 0.3s;
+}
+#portfolio .portfolio-carousel .image .overlay .text a:hover {
+  color: #fefefe;
+  background: #20c4ff;
+}
+#portfolio .portfolio-carousel .image .overlay .text p {
+  color: #fefefe;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+#portfolio .more {
+  padding-top: 60px;
+}
+#portfolio .more a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #00bbff, #0067e7);
+  box-shadow: 0px 0px 50px 0px rgba(0, 146, 243, 0.3);
+  border-radius: 3px;
+}
+
+/* =======================================
+  Portfolio-Section-End
+==========================================*/
+
+/* =======================================
+  Work-Section-Start
+==========================================*/
+#work {
+  padding-bottom: 100px;
+}
+#work .work-text h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  color: #222222;
+  padding-bottom: 50px;
+}
+#work .items {
+  background: #f5f5f5;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  transition: all linear 0.3s;
+  cursor: pointer;
+  margin: 0 12px;
+}
+
+#work .items::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  bottom: -12px;
+  right: -12px;
+  background: linear-gradient(to right, #11bfff, #0068e7);
+  border-radius: 50%;
+  transition: all linear 0.3s;
+}
+#work .items::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0%;
+  bottom: 0%;
+  right: 0%;
+  background: linear-gradient(to right, #11bfff, #0068e7);
+  border-radius: 3px;
+  transition: all linear 0.3s;
+  z-index: -1;
+  clip-path: circle(0% at 100% 100%);
+}
+#work .logo {
+  background: #eaeaea;
+  padding: 30px 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  transition: all linear 0.3s;
+  transition-delay: 0.1s;
+}
+#work .text {
+  padding: 30px;
+}
+#work .text h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #444444;
+  transition: all linear 0.3s;
+}
+#work .text h3 span {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+#work .text p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444444;
+  transition: all linear 0.3s;
+}
+
+#work .items:hover {
+  background: none;
+}
+#work .items:hover::after {
+  width: 100%;
+  height: 100%;
+  clip-path: circle(141.4% at 100% 100%);
+}
+#work .items:hover::before {
+  opacity: 0;
+}
+#work .items:hover .logo {
+  background: none;
+  box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+#work .items .logo img:nth-child(1) {
+  display: inline-block;
+}
+#work .items .logo img:nth-child(2) {
+  display: none;
+}
+#work .items:hover .logo img:nth-child(1) {
+  display: none;
+}
+#work .items:hover .logo img:nth-child(2) {
+  display: inline-block;
+}
+
+#work .items:hover .text h3 {
+  color: #fff;
+}
+#work .items:hover .text p {
+  color: #fff;
+}
+
+#work .slick-center .items {
+  background: none;
+}
+#work .slick-center .items::after {
+  width: 100%;
+  height: 100%;
+  clip-path: circle(141.4% at 100% 100%);
+}
+#work .slick-center .items::before {
+  opacity: 0;
+}
+
+#work .slick-center .items .logo {
+  background: none;
+  box-shadow: 2px 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+#work .slick-center .items .logo img:nth-child(1) {
+  display: none;
+}
+#work .slick-center .items .logo img:nth-child(2) {
+  display: inline-block;
+}
+
+#work .slick-center .items .text h3 {
+  color: #fff;
+}
+#work .slick-center .items .text p {
+  color: #fff;
+}
+
+/* =======================================
+  Work-Section-End
+==========================================*/
+
+/* =======================================
+  Counter-Section-Start
+==========================================*/
+#counter {
+  background: linear-gradient(to right, #00bbff, #0066e7);
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+#counter .counter-text h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+}
+#counter .counter-text .counter-button {
+  display: flex;
+  gap: 15px;
+  padding-top: 25px;
+}
+#counter .counter-text .counter-button a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 11px 20px;
+  background: linear-gradient(to right, #00bbff, #0066e7);
+  border-radius: 3px;
+  transition: all linear 0.3s;
+  box-shadow: 0px 0px 50px 0px rgba(0, 146, 243, 90%);
+}
+#counter .counter-text .counter-button a:hover {
+  color: #00b3f4;
+  background: #fff;
+}
+#counter .items p {
+  font-family: "Abril Fatface", cursive;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  padding-top: 10px;
+}
+#counter .items p span {
+  font-size: 24px;
+}
+/* =======================================
+  Counter-Section-End
+==========================================*/
+
+/* =======================================
+  Testimonial-Section-Start
+==========================================*/
+#testimonial {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#testimonial .testimonial-text h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  color: #222222;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+#testimonial .items {
+  background: #f5f5f5;
+  margin: 12px;
+}
+#testimonial .items .testimonial-info {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+#testimonial .items .testimonial-info h4 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
+  color: #222222;
+  font-weight: 400;
+  line-height: 30px;
+}
+#testimonial .items .testimonial-info a {
+  font-family: "Abril Fatface", cursive;
+  font-size: 24px;
+  color: #febb1c;
+}
+#testimonial .items .testimonial-info h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222222;
+  padding-top: 15px;
+}
+#testimonial .items .testimonial-info h3 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222222;
+}
+/* =======================================
+  Testimonial-Section-End
+==========================================*/
+
+/* =======================================
+  Subscribe-Section-Start
+==========================================*/
+#subscribe {
+  padding-bottom: 85px;
+}
+#subscribe .subscribe-text h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  color: #222222;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+#subscribe .subscribe-input {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #f5f5f5;
+  box-shadow: 0px 7px 20px 0px rgb(0 0 0 / 10%);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  color: #555;
+  height: 0;
+  padding: 20px 0;
+  padding-left: 20px;
+}
+#subscribe .subscribe-input::placeholder {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  color: #999999;
+}
+#subscribe .subscribe-button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 20px;
+  background: linear-gradient(to right, #00bbff, #0067e7);
+  box-shadow: 0px 0px 50px 0px rgba(0, 146, 243, 0.3);
+  border-radius: 30px;
+  border: none;
+}
+/* =======================================
+  Subscribe-Section-End
+==========================================*/
+
+/* =======================================
+  Partner-Section-Start
+==========================================*/
+#partner {
+  padding-bottom: 90px;
+}
+#partner .items {
+  padding: 30px;
+  cursor: pointer;
+}
+#partner .items img {
+  transform: scale(0.8);
+  filter: grayscale(1);
+  opacity: 0.5;
+  transition: all linear 0.3s;
+}
+#partner .items:hover img {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1);
+}
+/* =======================================
+  Partner-Section-End
+==========================================*/
+
+/* =======================================
+  Footer-Section-Start
+==========================================*/
+#footer {
+  width: 100%;
+  background: #f5f5f5;
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+#footer p {
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#footer h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 26px;
+  font-weight: 400;
+  color: #222222;
+  padding-bottom: 15px;
+}
+#footer h3 span {
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  padding-top: 5px;
+}
+#footer .social-icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #999999;
+  font-size: 16px;
+  border: 1px solid #ddddde;
+  transition: all linear 0.3s;
+}
+#footer .social-icon a:hover {
+  background: linear-gradient(to right, #00bbff, #0066e7);
+  color: #fff;
+  border: 1px solid transparent;
+}
+/* =======================================
+  Footer-Section-End
+==========================================*/
+
+/* =======================================
+  Copyright-Section-Start
+==========================================*/
+#copyright p {
+  color: #444444;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+/* =======================================
+  Copyright-Section-End
+==========================================*/

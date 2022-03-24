@@ -1,0 +1,379 @@
+/* =======================================
+  Responsive-Section-Start 0px-575px
+==========================================*/
+
+@media only screen and (max-width: 575px) {
+  /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+  #navbar {
+    background: #fff;
+  }
+  #navbar ul li a {
+    font-size: 16px;
+  }
+  /* =======================================
+    Banner-Section-Start
+  ==========================================*/
+  #banner {
+    padding-top: 110px;
+  }
+  #banner .banner-text {
+    padding-top: 40px;
+  }
+  #banner .banner-text h1 {
+    font-size: 28px;
+  }
+  #banner .banner-text h3 {
+    font-size: 40px;
+  }
+  /* =======================================
+    About-Section-Start
+  ==========================================*/
+  #about {
+    padding: 40px 0;
+  }
+  #about .about-text h3 {
+    text-align: center;
+    padding: 20px;
+  }
+  #about .about-text p {
+    text-align: center;
+  }
+  #about .items {
+    padding: 10px;
+  }
+  /* =======================================
+    Services-Section-Start
+  ==========================================*/
+  #services {
+    padding: 20px 0;
+    background: #f5f5f5;
+  }
+  #portfolio {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #services .items {
+    padding: 20px;
+  }
+
+  #portfolio .portfolio-carousel {
+    flex-wrap: wrap;
+  }
+  #portfolio .portfolio-carousel .image {
+    width: 45%;
+  }
+  #portfolio .more {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  /* =======================================
+    Portfolio-Section-Start
+  ==========================================*/
+  #work .work-text h3 {
+    padding-bottom: 30px;
+  }
+  /* =======================================
+    Work-Section-Start
+  ==========================================*/
+  #work {
+    padding-bottom: 40px;
+  }
+  /* =======================================
+    Counter-Section-Start
+  ==========================================*/
+  #counter .counter-text .counter-button {
+    padding-bottom: 20px;
+  }
+  #counter .items {
+    padding: 10px 0;
+  }
+
+  /* =======================================
+    Testimonial-Section-Start
+  ==========================================*/
+  #testimonial {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .slick-slide img {
+    display: inline-block;
+  }
+
+  #testimonial .testimonial-text h3 {
+    padding-bottom: 20px;
+  }
+
+  #subscribe {
+    padding-bottom: 40px;
+  }
+  #partner {
+    padding-bottom: 30px;
+  }
+
+  #footer {
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  #footer p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+/* =======================================
+  Responsive-Section-Start 576px-767px
+==========================================*/
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+  #navbar {
+    background: #fff;
+  }
+  #navbar ul li a {
+    font-size: 16px;
+  }
+  /* =======================================
+    Banner-Section-Start
+  ==========================================*/
+  #banner {
+    padding-top: 110px;
+  }
+  #banner .banner-text {
+    padding-top: 40px;
+  }
+  #banner .banner-text h1 {
+    font-size: 28px;
+  }
+  #banner .banner-text h3 {
+    font-size: 40px;
+  }
+  /* =======================================
+    About-Section-Start
+  ==========================================*/
+  #about {
+    padding: 40px 0;
+  }
+  #about .about-text h3 {
+    text-align: center;
+    padding: 20px;
+  }
+  #about .about-text p {
+    text-align: center;
+  }
+  #about .items {
+    padding: 10px;
+  }
+  /* =======================================
+    Services-Section-Start
+  ==========================================*/
+  #services {
+    padding: 20px 0;
+    background: #f5f5f5;
+  }
+  #portfolio {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #services .items {
+    padding: 20px;
+  }
+
+  #portfolio .portfolio-carousel {
+    flex-wrap: wrap;
+  }
+  #portfolio .portfolio-carousel .image {
+    width: 45%;
+  }
+  #portfolio .more {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  /* =======================================
+    Portfolio-Section-Start
+  ==========================================*/
+  #work .work-text h3 {
+    padding-bottom: 30px;
+  }
+  /* =======================================
+    Work-Section-Start
+  ==========================================*/
+  #work {
+    padding-bottom: 40px;
+  }
+  /* =======================================
+    Counter-Section-Start
+  ==========================================*/
+  #counter .counter-text .counter-button {
+    padding-bottom: 20px;
+  }
+  #counter .items {
+    padding: 10px 0;
+  }
+
+  /* =======================================
+    Testimonial-Section-Start
+  ==========================================*/
+  #testimonial {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .slick-slide img {
+    display: inline-block;
+  }
+
+  #testimonial .testimonial-text h3 {
+    padding-bottom: 20px;
+  }
+
+  #subscribe {
+    padding-bottom: 40px;
+  }
+  #partner {
+    padding-bottom: 30px;
+  }
+
+  #footer {
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  #footer p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+/* =======================================
+  Responsive-Section-Start 767px-992px
+==========================================*/
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+  #navbar {
+    background: #fff;
+  }
+  #navbar ul li a {
+    font-size: 16px;
+  }
+  /* =======================================
+    Banner-Section-Start
+  ==========================================*/
+  #banner {
+    padding-top: 110px;
+  }
+  #banner .banner-text {
+    padding-top: 50px;
+  }
+  #banner .banner-text h1 {
+    font-size: 28px;
+  }
+  #banner .banner-text h3 {
+    font-size: 50px;
+  }
+  /* =======================================
+    About-Section-Start
+  ==========================================*/
+  #about {
+    padding: 50px 0;
+  }
+  #about .about-text h3 {
+    text-align: center;
+    padding: 20px;
+  }
+  #about .about-text p {
+    text-align: center;
+  }
+  #about .items {
+    padding: 20px;
+  }
+  /* =======================================
+    Services-Section-Start
+  ==========================================*/
+  #services {
+    padding: 30px 0;
+    background: #f5f5f5;
+  }
+  #portfolio {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  #services .items {
+    padding: 20px;
+  }
+
+  #portfolio .portfolio-carousel {
+    flex-wrap: wrap;
+  }
+  #portfolio .portfolio-carousel .image {
+    width: 45%;
+  }
+  #portfolio .more {
+    padding-top: 340px;
+    padding-bottom: 20px;
+  }
+  /* =======================================
+    Portfolio-Section-Start
+  ==========================================*/
+  #work .work-text h3 {
+    padding-bottom: 40px;
+  }
+  /* =======================================
+    Work-Section-Start
+  ==========================================*/
+  #work {
+    padding-bottom: 50px;
+  }
+  /* =======================================
+    Counter-Section-Start
+  ==========================================*/
+  #counter .counter-text .counter-button {
+    padding-bottom: 30px;
+  }
+  #counter .items {
+    padding: 10px 0;
+  }
+
+  /* =======================================
+    Testimonial-Section-Start
+  ==========================================*/
+  #testimonial {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .slick-slide img {
+    display: inline-block;
+  }
+
+  #testimonial .testimonial-text h3 {
+    padding-bottom: 30px;
+  }
+
+  #subscribe {
+    padding-bottom: 50px;
+  }
+  #partner {
+    padding-bottom: 40px;
+  }
+
+  #footer {
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  #footer p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
